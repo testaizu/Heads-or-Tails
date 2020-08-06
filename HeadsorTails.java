@@ -14,5 +14,11 @@ public class HeadsorTails{
         }
         }
         System.out.println("Heads:"+count+",Tails:"+(3-count));
+        if(count>3-count){
+            System.out.println("You won!");
+        }
+        else{
+            System.out.println("You lost!");
+        }
     }
 } 
